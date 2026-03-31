@@ -1,0 +1,25 @@
+Sentiment Analyzer Project Report
+Name: ADITYA KUMAR NATH
+Registration no. : 25BCE11094
+course name: Fundamentals in AI and ML (CSA2001)
+Faculty: Dr.PRAMOD KUMAR BHATT (C21/F11/F12)
+1. Introduction
+This project focuses on building a sentiment analysis system that classifies text into positive or negative categories. With the rise of online reviews and social media, understanding user sentiment has become important.
+2. Problem Statement
+Manually analyzing large amounts of text data such as reviews or tweets is time-consuming and inefficient. The goal is to automate this process using machine learning.
+3. Motivation
+The motivation behind this project is to explore how natural language processing can be used to extract useful insights from text data in a simple and efficient way.
+4. Methodology
+The dataset consists of labeled text samples. The text is preprocessed using cleaning, stopword removal, and stemming. TF-IDF is used for feature extraction, and Logistic Regression is used as the classification model.
+5. Tools and Technologies
+Python, Pandas, Scikit-learn, NLTK
+6. Implementation
+The project is divided into training and prediction modules. The training module processes data and trains the model, which is saved using pickle. The prediction module loads the model and predicts sentiment for new input.
+7. Challenges Faced
+Handling noisy data, selecting proper preprocessing techniques, and maintaining consistency between training and prediction.
+8. Results
+The model is able to classify text into positive and negative categories with reasonable accuracy for a basic implementation.
+9. Conclusion
+This project demonstrates how machine learning can be applied to solve real-world text classification problems.
+10. Future Scope
+Future improvements include adding a web interface, using larger datasets, and experimenting with advanced models.
